@@ -1,0 +1,6 @@
+version: '2'
+services:
+  mongodb:
+    image: "mongo"
+  primer-dataset:
+    build: "./primer-dataset"
